@@ -157,7 +157,7 @@
             <div class="dropdown-list-image mr-3">
               <img
                 class="rounded-circle"
-                src="img/undraw_profile_1.svg"
+                src="https://i.pinimg.com/474x/fb/e8/87/fbe8876f5662d42333312d3a0bb1d292.jpg"
                 alt=""
               />
               <div class="status-indicator bg-success"></div>
@@ -174,7 +174,7 @@
             <div class="dropdown-list-image mr-3">
               <img
                 class="rounded-circle"
-                src="img/undraw_profile_2.svg"
+                src="https://i.pinimg.com/474x/fb/e8/87/fbe8876f5662d42333312d3a0bb1d292.jpg"
                 alt=""
               />
               <div class="status-indicator"></div>
@@ -191,7 +191,7 @@
             <div class="dropdown-list-image mr-3">
               <img
                 class="rounded-circle"
-                src="img/undraw_profile_3.svg"
+                src="https://i.pinimg.com/474x/fb/e8/87/fbe8876f5662d42333312d3a0bb1d292.jpg"
                 alt=""
               />
               <div class="status-indicator bg-warning"></div>
@@ -245,7 +245,7 @@
           >
           <img
             class="img-profile rounded-circle"
-            src="img/undraw_profile.svg"
+            src="https://i.pinimg.com/474x/fb/e8/87/fbe8876f5662d42333312d3a0bb1d292.jpg"
           />
         </a>
         <!-- Dropdown - User Information -->
@@ -266,15 +266,12 @@
             Activity Log
           </a>
           <div class="dropdown-divider"></div>
-          <a
-            class="dropdown-item"
-            href="#"
-            data-toggle="modal"
-            data-target="#logoutModal"
-          >
-            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-            Logout
-          </a>
+          <nuxt-link to="/login">
+            <p class="dropdown-item">
+              <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+              Logout
+            </p>
+          </nuxt-link>
         </div>
       </li>
     </ul>
